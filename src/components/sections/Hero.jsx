@@ -1,4 +1,5 @@
 import { words } from "../../../constants";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -39,6 +40,7 @@ const Hero = () => {
               Hi, I'm Peet, a web developer based in Thailand with a passion for
               coding.
             </p>
+            <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work" />
           </div>
         </header>
       </div>
