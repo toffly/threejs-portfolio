@@ -9,15 +9,16 @@ const Button = ({ className, id, text }) => {
 
         const target = document.getElementById("counter");
 
-        if(target&& id) {
-          const offset = window.innerWidth * 0.15
+        if (target && id) {
+          const offset = window.innerWidth * 0.15;
 
-          const top = target.getBoundingClientRect().top + window.scrollY - offset
+          const top =
+            target.getBoundingClientRect().top + window.scrollY - offset;
 
-          window.scrollTo( {
+          window.scrollTo({
             top,
             behavior: "smooth",
-          })
+          });
         }
       }}
     >
