@@ -3,16 +3,17 @@ import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
 import { Room } from "./Room";
 import HeroLights from "./HeroLights";
+import Particles from "./Particles";
 
 const HeroExperience = () => {
-  const isTablet = useMediaQuery({ query: "(max-width: 1024px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   return (
-    <Canvas camera={{ position: [0, 0, 15] }}>
+    <Canvas camera={{ position: [0, 0, 10] }}>
       <HeroLights />
+      <Particles count={100}/>
       <OrbitControls
-        enableZoom={!isTablet}
+        enableZoom={false}
         enablePan={false}
         maxDistance={20}
         minDistance={5}
