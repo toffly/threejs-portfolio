@@ -4,6 +4,7 @@ import FeatureCards from "./components/sections/FeatureCards";
 import Hero from "./components/sections/Hero";
 import LogoSection from "./components/sections/LogoSection";
 import ShowcaseSection from "./components/sections/ShowcaseSection";
+import TechStack from "./components/sections/TechStack";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <LogoSection/>
       <FeatureCards/>
       <ExperienceSection/>
+      <TechStack/>
     </>
   );
 };
