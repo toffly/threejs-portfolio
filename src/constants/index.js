@@ -95,10 +95,6 @@ const techStackImgs = [
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
     name: "Backend Developer",
     imgPath: "/images/logos/node.png",
   },
@@ -117,12 +113,6 @@ const techStackIcons = [
     name: "React Developer",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
@@ -246,20 +236,19 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "line",
+    imgPath: "/images/line-icon.png",
+    url: "https://www.linkedin.com/in/peerapat-mapitak-a29358320/"
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    url: "https://www.facebook.com/toffly.toffly.7"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/peerapat-mapitak-a29358320/"
   },
 ];
 
